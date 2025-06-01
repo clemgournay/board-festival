@@ -1,6 +1,6 @@
 # BOARD FESTIVAL
 
-`Mario Party like game in 3D, for browser
+Mario Party like game in 3D, for browser.
 
 ## Description
 
