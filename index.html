@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Board Festival</title>
+
+    <link rel="stylesheet" href="src/styles/main.scss" />
+
+    <script type="module" src="./src/main.js"></script>
+</head>
+<body>
+    <div id="scene"></div>
+
+    <div id="gui">
+
+        <div id="your-turn">
+            <div class="center">
+                <div class="title">Your turn !</div>
+                <p>Click or press a key</p>
+            </div>
+        </div>
+
+        <div id="start">CLICK TO START</div>
+
+        <canvas id="qrcode" width="180" height="180"></canvas>
+
+        <div class="message-box">
+            <p class="message" data-message></p>
+            <div class="choices">
+                <div class="choice" data-template="choice">
+                    <span data-label></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="players">
+            <div class="player" data-template="player">
+                <div class="property name">
+                    <div class="label">ID</div>
+                    <div class="value" data-id></div>
+                </div>
+                <div class="property name">
+                    <div class="label">Name</div>
+                    <div class="value" data-name></div>
+                </div>
+                <div class="property coins">
+                    <div class="label">Coins</div>
+                    <div class="value" data-coins></div>
+                </div>
+                <div class="property stars">
+                    <div class="label">Stars</div>
+                    <div class="value" data-stars></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
